@@ -1,6 +1,8 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install -y wget curl git python3
+RUN apt-get update && apt-get install -y wget curl git python3 
+
+RUN echo "hello"
 
 RUN sleep 600
 
